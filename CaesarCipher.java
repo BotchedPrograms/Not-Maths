@@ -1,4 +1,4 @@
-// Encrypts message by making shifting every letter by a certain number
+// Encrypts message by shifting every letter by a certain number
   // Shifting by 1 to the right makes a to b, b to c, c to d, ... , y to z, and z to a
 
 public class CaesarCipher {
