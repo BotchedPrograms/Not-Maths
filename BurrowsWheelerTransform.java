@@ -4,9 +4,9 @@ import java.util.Objects;
 
 /* Let's say we have the String "abbbbbcccccdddee"
      We can save space by writing it as 1a5b5c3d2e
-   Doing this with real English words isn't very practical since they don't tend to have many repeated characters
    Introducing Burrows-Wheeler transform, a process that helps with converting words to repeating strings of characters
      Clumps some of the same characters together, not necessarily all
+     Helps with compressing big blocks of text among presumably other things
      More importantly though, it's reversible
 
    Example: bananarama
